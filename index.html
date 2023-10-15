@@ -621,11 +621,28 @@
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea 
             name="user-comment"
-            id="user-text"
-            class="modal-text"
+            id="user-comment"
+            class="modal-comment"
             placeholder="Text input"
             ></textarea>
-          </div>        
+          </div>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="modal-check"
+              id="user-comment"
+              class="check-input visually-hidden"
+            />
+            <label for="modal-check" class="check-text">
+              <span
+                ><svg class="modal-check-icon" width="10" height="10">
+                  <use href="./images/icons.svg#icon-Property-1click-1"></use></svg
+              ></span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit">Send</button>        
         </form>
       </div>
     </div>
