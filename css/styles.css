@@ -791,8 +791,10 @@ margin-bottom: 4px;
   
 }
 
-.modal-input:focus, .modal-input:hover{
+.modal-input:focus,
+ .modal-input:hover{
   border-color: #4D5AE5;
+
   
 }
 
@@ -875,7 +877,7 @@ text-decoration-line: underline;
   fill: transparent; 
  }
 
-  .privacy-link:checked{
+  .privacy-link:checked + .accept-item span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
