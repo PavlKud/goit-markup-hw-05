@@ -773,7 +773,7 @@ margin-bottom: 4px;
   letter-spacing: 0.04em;
 }
 
-.privacy-link{
+.privacy{
 color:#4D5AE5;
 text-decoration-line: underline;
 }
@@ -792,7 +792,7 @@ text-decoration-line: underline;
   fill: transparent; 
  }
 
-  .privacy-link:checked + .modal-span span{
+  .privacy-link:checked{
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
