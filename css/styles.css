@@ -594,6 +594,11 @@ img {
 }
 
 
+
+
+
+
+
 /* -----backdrop----- */
 
 .backdrop{
@@ -808,8 +813,8 @@ text-decoration-line: underline;
 
 
 
-.is-open{
+/* .is-open{
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
