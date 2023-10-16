@@ -714,8 +714,8 @@ padding: 72px 24px 24px 24px;
   
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus{
+.modal-btn:hover .modal-btn-icon ,
+.modal-btn:focus .modal-btn-icon{
   fill: #ffffff;
 }
 
