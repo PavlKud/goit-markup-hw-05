@@ -808,6 +808,9 @@ margin-bottom: 4px;
 .modal-input:focus + .modal-icon{
   fill: #4D5AE5;
 }
+.modal-input:hover + .modal-icon{
+  fill: #4D5AE5;
+}
 
 
 .modal-comment{
